@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* container */
+.container{
+    background-color: #6d9ac4;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* h2 heading */
+.container>h2{
+    margin: 1rem;
+    color: white;
+}
+
+/* signupForm conmtainer */
+.signupForm{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 20vw;
+    height: fit-content;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* signup form */
+form{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+/* input tag */
+input{
+padding: 0.5rem;
+margin-bottom: 0.5rem;
+border: 1px solid grey;
+}
+
+/* submit button */
+#submit{
+    background-color: #ee5684;
+    height: 2.5rem;
+    color:white;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* redirectToLogin class */
+.redirectToLogin{
+    width: 100%;
+    display: flex;
+    gap:0.2rem;
+    justify-content: center;
+    margin-top: 0.7rem;
+}
+
+/* a tag  */
+.redirectToLogin > a{
+    font-weight: bolder;
+}
+
+
+/* media query to make web page responsive */
+@media only screen and (max-width: 600px) {
+    .signupForm{
+        width: 80vw;
+    }
+
+  }
